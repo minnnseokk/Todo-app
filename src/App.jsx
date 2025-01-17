@@ -6,7 +6,7 @@ import TodoTemplate from './components/TodoTemplate.jsx'
 import TodoInsert from './components/TodoInsert.jsx'
 import TodoList from './components/TodoList.jsx'
 import TodoProvider from './TodoProvider.jsx'
-
+// 깃 충돌 확인을 위한 주석
 function App() {
   const default_color = "black"
   return (
