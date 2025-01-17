@@ -8,13 +8,14 @@ import TodoList from './components/TodoList.jsx'
 import TodoProvider from './TodoProvider.jsx'
 
 function App() {
+  const default_color = "black"
   return (
     <TodoProvider>
       <TodoTemplate>
         <TodoInsert />
         <TodoList />
       </TodoTemplate>
-      <ColorBox />
+      <ColorBox color={default_color} />
     </TodoProvider>
   );
 }
