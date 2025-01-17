@@ -8,13 +8,15 @@ import TodoList from './components/TodoList.jsx'
 import TodoProvider from './TodoProvider.jsx'
 // 깃 충돌 확인을 위한 주석
 function App() {
+  const default_color = "blue"
+  const default_size = 2
   return (
     <TodoProvider>
       <TodoTemplate>
         <TodoInsert />
         <TodoList />
       </TodoTemplate>
-      <ColorBox />
+      <ColorBox size = {default_size}/>
     </TodoProvider>
   );
 }
