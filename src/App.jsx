@@ -14,6 +14,7 @@ function App() {
         <TodoInsert />
         <TodoList />
       </TodoTemplate>
+      <ColorBox />
     </TodoProvider>
   );
 }
